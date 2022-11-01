@@ -53,9 +53,7 @@ abstract class _FormStoreBase with Store {
       error.email = 'E-mail obrigatório';
       return false;
     }
-
     error.email = null;
-
     return true;
   }
 
